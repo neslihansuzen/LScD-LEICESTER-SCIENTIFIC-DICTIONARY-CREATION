@@ -19,10 +19,10 @@ The code requires the following R packages: tm, SnowballC, slam, plyr. Packages 
 
 'LSD_Creation.R' contains 4 parameters of paths 'sourceDir', 'outDirectory', 'prefFileName' and 'substFileName' described below:
 
-    ** sourceDir     :** Directory with source files (.csv files)
-    ** outDirectory  :** Directory to write metadata files and processed documents
-    ** prefFileName  :** Directory for the file 'List of prefixes'
-    ** substFileName :** Directory for the file 'List of substitution'
+     sourceDir     : Directory with source files (.csv files)
+     outDirectory  : Directory to write metadata files and processed documents
+     prefFileName  : Directory for the file 'List of prefixes'
+     substFileName : Directory for the file 'List of substitution'
   
 These locations should be changed by the user for reading and writing files. 
 
