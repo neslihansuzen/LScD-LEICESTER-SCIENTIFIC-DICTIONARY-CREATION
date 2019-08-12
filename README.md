@@ -1,6 +1,6 @@
    # LEICESTER SCIENTIFIC DICTIONARY
    
-This repository contains R codes for creation, modification and usage of LEICESTER SCIENTIFIC DICTIONARY (LSD). There are several isolated scripts in my code. Detailed description of each script is presented in following sections
+This repository contains R codes for creation, modification and usage of LEICESTER SCIENTIFIC DICTIONARY (LSD). There are several isolated scripts in my code. Detailed description of each script is presented in following sections:
 
 * <a href="#L1">LEICESTER SCIENTIFIC DICTIONARY CREATION</a>
 
