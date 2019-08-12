@@ -54,10 +54,10 @@ This guide is for building LSD from LSC:
     
 All output files are saved in the 'outDirectory'. The outputs of the code are listed below:
   
-    1.MetaData.RData: MetaData file contains all fields in documents of LSC excluding abstracts. For LSD, this file will contain fields List_of_Authors, Title, Categories, Research_Areas, Total_Times_Cited and Times_cited_in_Core_Collection.
-    2.Abstracts.RData: The file contains all abstracts after pre-processing steps defined above.This file contains stemmed of words. All stop words are deleted. 
-    3.DTM.RData: DTM is the Document Term Matrix constructed from the Corpus. In DTM, rows correspond to documents in the collection and columns correspond to terms (words). Each entry of the matrix is the number of times the word occurs in the corresponding document.
-    4.LSD.RData/LSD.csv: LSD is the ordered list of unique words with the number of documents containing the word and the number of appearance of the word in the corpus. Words are sorted by the number of documents containing words in descending order. All words are in lowercase and their stem forms.   
+   1.**MetaData.RData:** MetaData file contains all fields in documents of LSC excluding abstracts. For LSD, this file will contain fields List_of_Authors, Title, Categories, Research_Areas, Total_Times_Cited and Times_cited_in_Core_Collection.
+   2.**Abstracts.RData:** The file contains all abstracts after pre-processing steps defined above.This file contains stemmed of words. All stop words are deleted. 
+   3.**DTM.RData:** DTM is the Document Term Matrix constructed from the Corpus. In DTM, rows correspond to documents in the collection and columns correspond to terms (words). Each entry of the matrix is the number of times the word occurs in the corresponding document.
+   4.**LSD.RData/LSD.csv:** LSD is the ordered list of unique words with the number of documents containing the word and the number of appearance of the word in the corpus. Words are sorted by the number of documents containing words in descending order. All words are in lowercase and their stem forms.   
   
   
   
