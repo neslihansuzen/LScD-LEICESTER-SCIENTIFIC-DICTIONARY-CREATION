@@ -28,12 +28,12 @@ The code requires the following R packages: tm, SnowballC, slam, plyr. Packages 
   
 These locations should be changed by the user for reading and writing files. 
 
-The code consists of three functions, 'pattern' to create gsub pattern for list of prefixes, 'preprocessing' to process the collection of texts and 'Split_abstract' to split the dataframe of asbstracts into several sub dataframes for running the function 'Preprocessing' fatster. Preprocessing function consists the following operations:
+The code consists of three functions, 'pattern' to create gsub pattern for list of prefixes, 'preprocessing' to process the collection of texts and 'Split_abstract' to split the dataframe of abstracts into several sub-dataframes for running the function 'Preprocessing' faster. Preprocessing function consists the following operations:
 
    1.	**Removing punctuations and special characters:** This is the process of substitution of all non -alphanumeric characters by space exclusing '-' 
    2.	**Lowercasing the text data:** Entire collection of texts are converted to lowercase. 
-   3.	**Uniting prefixes of words:** Words containing prefixes joined with character "-" are united as a word. The list of prefixes united for this research are listed in the file "list_of_prefixes.csv". 
-   4.	**Substitution of words:** Some of words joined with "-" in the abstracts of the LSC require an additional process of substitution to avoid losing the meaning of the word before removing the character "-". The full list of such words and decision taken for substitution are presented in the file "list_of_substitution.csv". 
+   3.	**Uniting prefixes of words:** Words containing prefixes joined with character "-" are united as a word. The list of prefixes united for this research are listed in the file "list_of_prefixes.csv" in LSC folder. 
+   4.	**Substitution of words:** Some of words joined with "-" in the abstracts of the LSC require an additional process of substitution to avoid losing the meaning of the word before removing the character "-". The full list of such words and decision taken for substitution are presented in the file "list_of_substitution.csv in LSC folder". 
    5.	**Removing the character "-":** All remaining character "-" are replaced by space. 
    6.	**Removing numbers:** All digits which are not included in a word are replaced by space. All words that contain digits and letters are kept for this study.
    7.	**Stemming:** In this process, multiple forms of a specific word are eliminated and words that have the same base in different grammatical forms are mapped to the same stem. 
