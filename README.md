@@ -56,7 +56,7 @@ All output files are saved in the 'outDirectory'. The outputs of the code are li
   
    1.**MetaData.RData:** MetaData file contains all fields in documents of LSC excluding abstracts. For LSD, this file will contain fields List_of_Authors, Title, Categories, Research_Areas, Total_Times_Cited and Times_cited_in_Core_Collection.
   
-  2.**Abstracts.RData:** The file contains all abstracts after pre-processing steps defined above.This file contains stemmed of words. All stop words are deleted.
+  2.**Abstracts.RData:** The file contains all abstracts after pre-processing steps defined above.This file contains stemmed form of words. All stop words are deleted.
   
   3.**DTM.RData:** DTM is the Document Term Matrix constructed from the Corpus. In DTM, rows correspond to documents in the collection and columns correspond to terms (words). Each entry of the matrix is the number of times the word occurs in the corresponding document. 
   
