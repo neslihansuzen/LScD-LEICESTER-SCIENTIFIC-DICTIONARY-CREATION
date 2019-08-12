@@ -1,7 +1,7 @@
    # LSD (LEICESTER SCIENTIFIC DICTIONARY) CREATION
 This repository contains R code to create a dictionary from a corpus of documents
 
-* <a href="https://github.com/neslihansuzen/LSD-LEICESTER-SCIENTIFIC-DICTIONARY-CREATION/edit/master/README.md#L1">_k_-means and _k_-medoids</a>
+* <a href="https://github.com/neslihansuzen/LSD-LEICESTER-SCIENTIFIC-DICTIONARY-CREATION/blob/master/README.md#L1">_k_-means and _k_-medoids</a>
 * <a href="https://github.com/Mirkes/Data_Mining_Softbook/wiki/KNN-and-potential-energy">kNN and potential energy</a>
 * <a href="https://github.com/Mirkes/Data_Mining_Softbook/wiki/Discrete-time-Hopfield-network">Discrete time Hopfield network</a>
 
