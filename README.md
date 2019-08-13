@@ -1,32 +1,32 @@
    # LEICESTER SCIENTIFIC DICTIONARY
    
-This repository contains R codes for creation, modification and usage of LEICESTER SCIENTIFIC DICTIONARY (LSD). There are several isolated scripts in my code. Detailed description of each script is presented in following sections:
+This repository contains R codes for creation, modification and usage of LEICESTER SCIENTIFIC DICTIONARY (LScD). There are several isolated scripts in my code. Detailed description of each script is presented in following sections:
 
 * <a href="#L1">LEICESTER SCIENTIFIC DICTIONARY CREATION</a>
 
    
-   # <a name="L1">LSD (LEICESTER SCIENTIFIC DICTIONARY) CREATION</a>
+   # <a name="L1">LScD (LEICESTER SCIENTIFIC DICTIONARY) CREATION</a>
 This repository contains R code to create a dictionary from a corpus of documents
 
 
-   ## What is 'LSD_Creation.R'?
+   ## What is 'LScD_Creation.R'?
 
-**LSD_Creation** is an R code that processes the collection of texts and create the list of words from the collection. This script provides a detailed explanation of the code and includes information on the pre-processing steps were performed, and output files were created.
+**LScD_Creation** is an R code that processes the collection of texts and create the list of words from the collection. This script provides a detailed explanation of the code and includes information on the pre-processing steps were performed, and output files were created.
 
-The code is written for building LSD from LSC to be used by Neslihan Suzen for her PhD project, and it can be used for other corpuses for a wide verity of applications that includes pre-processing the collection of texts, creating DTM and producing a list of words from the collection of texts. The code can be also used to reproduce LSD.
+The code is written for building LScD from LSC to be used by Neslihan Suzen for her PhD project, and it can be used for other corpuses for a wide verity of applications that includes pre-processing the collection of texts, creating DTM and producing a list of words from the collection of texts. The code can be also used to reproduce LScD.
 
-Use of the LSC is subject to acceptance of request of the link by email. To access the LSC for research purposes, please email to ns433@le.ac.uk. For more information, see (link to figsahe for LSC)  LSD can be found in ...(refer to LSD in fogshare)
+Use of the LSC is subject to acceptance of request of the link by email. To access the LSC for research purposes, please email to ns433@le.ac.uk. For more information, see (link to figsahe for LSC)  LScD can be found in ...(refer to LScD in fogshare)
 
 
-   ## Usage for 'LSD_Creation.R'
+   ## Usage for 'LScD_Creation.R'
 
-'LSD_Creation.R' can be easily downloaded from GitHub.
+'LScD_Creation.R' can be easily downloaded from GitHub.
 
 The code requires the following R packages: tm, SnowballC, slam, plyr. Packages can be installed by
 
     install.packages(c("tm","SnowballC","slam","plyr"))
 
-'LSD_Creation.R' contains 4 parameters of paths 'sourceDir', 'outDirectory', 'prefFileName' and 'substFileName' described below:
+'LScD_Creation.R' contains 4 parameters of paths 'sourceDir', 'outDirectory', 'prefFileName' and 'substFileName' described below:
 
      sourceDir     : Directory with source files (.csv files)
      outDirectory  : Directory to write metadata files and processed documents
@@ -49,7 +49,7 @@ The code consists of three functions, 'pattern' to create gsub pattern for list 
 
    ## Guide for Usage the Code
      
-This guide is for building LSD from LSC:
+This guide is for building LScD from LSC:
 
     1. Install libraries
     2. Prepare (or use) the list of words for substitution and list of prefixes  
@@ -61,13 +61,13 @@ This guide is for building LSD from LSC:
     
 All output files are saved in the 'outDirectory'. The outputs of the code are listed below:
   
-   1.**MetaData.RData:** MetaData file contains all fields in documents of LSC excluding abstracts. For LSD, this file will contain fields List_of_Authors, Title, Categories, Research_Areas, Total_Times_Cited and Times_cited_in_Core_Collection.
+   1.**MetaData.RData:** MetaData file contains all fields in documents of LSC excluding abstracts. For LScD, this file will contain fields List_of_Authors, Title, Categories, Research_Areas, Total_Times_Cited and Times_cited_in_Core_Collection.
   
   2.**Abstracts.RData:** The file contains all abstracts after pre-processing steps defined above.This file contains stemmed form of words. All stop words are deleted.
   
   3.**DTM.RData:** DTM is the Document Term Matrix constructed from the Corpus. In DTM, rows correspond to documents in the collection and columns correspond to terms (words). Each entry of the matrix is the number of times the word occurs in the corresponding document. 
   
-  4.**LSD.RData/LSD.csv:** LSD is the ordered list of unique words with the number of documents containing the word and the number of appearance of the word in the corpus. Words are sorted by the number of documents containing words in descending order. All words are in lowercase and their stem forms.   
+  4.**LScD.RData/LScD.csv:** LScD is the ordered list of unique words with the number of documents containing the word and the number of appearance of the word in the corpus. Words are sorted by the number of documents containing words in descending order. All words are in lowercase and their stem forms.   
   
   
   
