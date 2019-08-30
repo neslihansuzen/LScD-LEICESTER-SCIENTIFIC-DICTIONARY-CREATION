@@ -2,7 +2,7 @@
    
 This repository contains R codes for creation, modification and usage of LEICESTER SCIENTIFIC DICTIONARY (LScD). There are several isolated scripts in my code. Detailed description of each script is presented in following sections:
 
-* <a href="#L1">LEICESTER SCIENTIFIC DICTIONARY CREATION</a>
+* <a href="#L1">LEICESTER SCIENTIFIC DICTIONARY (LScD) CREATION</a>
 
    
    # <a name="L1">LScD (LEICESTER SCIENTIFIC DICTIONARY) CREATION</a>
