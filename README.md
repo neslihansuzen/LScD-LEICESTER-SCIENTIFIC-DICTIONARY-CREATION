@@ -15,7 +15,7 @@ This repository contains R code to create a dictionary from a corpus of document
 
 The code is written for building LScD from LSC to be used by Neslihan Suzen for her PhD project, and it can be used for other corpuses for a wide verity of applications that includes pre-processing the collection of texts, creating DTM and producing a list of words from the collection of texts. The code can be also used to reproduce LScD.
 
-Use of the LSC is subject to acceptance of request of the link by email. To access the LSC for research purposes, please email to ns433@le.ac.uk. For more information, see https://doi.org/10.25392/leicester.data.9449639.v1. LScD can be found in ...(refer to LScD in fogshare)
+Use of the LSC is subject to acceptance of request of the link by email. To access the LSC for research purposes, please email to ns433@le.ac.uk. For more information, see https://doi.org/10.25392/leicester.data.9449639.v1. LScD can be found in https://doi.org/10.25392/leicester.data.9746900.v1.
 
 
    ## Usage for 'LScD_Creation.R'
