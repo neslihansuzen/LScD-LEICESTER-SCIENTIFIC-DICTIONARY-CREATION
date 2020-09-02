@@ -75,6 +75,10 @@ All output files are saved in the 'outDirectory'. The outputs of the code are li
  
 The code can be applied for list of texts from any source with changes of parameter. We note that the structure of the corpus such as file format and names (also the position) of fields should be taken into account to apply our code.
 For LSC, abstracts must be in the THIRD column. 
+
+##References 
+[1] Suzen, N., Mirkes, E. M., & Gorban, A. N. (2019). LScDC-new large scientific dictionary. arXiv preprint arXiv:1912.06858.
+
   
   
   
